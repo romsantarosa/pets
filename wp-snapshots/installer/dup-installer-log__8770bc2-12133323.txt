@@ -1,0 +1,251 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 01:41:41
+* VERSION: 1.3.10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.3.1 | SAPI: apache2handler
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1
+DOC ROOT:	C:/xampp/htdocs/mundodospets
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/mundodospets/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190219_mundodospets_v2_8770bc26dcfdae346422_20190712133323_archive.zip
+SIZE:	151.15MB
+
+>>> Starting ZipArchive Unzip
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 10190
+    [filename] => C:\xampp\htdocs\mundodospets\20190219_mundodospets_v2_8770bc26dcfdae346422_20190712133323_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2019-07-12 13:43:20
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:43:20 - RUNTIME: 98.6589 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:44:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.37 -- Build Server: 5.7.25
+FILE SIZE:	dup-database__8770bc2-12133323.sql (3.74MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/mundodospets/dup-installer/dup-installer-data__8770bc2-12133323.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	54
+RENAMED TABLES:	0
+QUERIES RAN:	476
+
+categorias_post: (0)
+cidade: (5595)
+estado: (28)
+post: (0)
+sub_categorias_post: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_create_map: (0)
+wp_duplicator_packages: (0)
+wp_gmp_icons: (47)
+wp_gmp_maps: (0)
+wp_gmp_marker_groups: (0)
+wp_gmp_markers: (0)
+wp_gmp_membership_presets: (0)
+wp_gmp_modules: (14)
+wp_gmp_modules_type: (4)
+wp_gmp_options: (2)
+wp_gmp_options_categories: (4)
+wp_gmp_usage_stat: (0)
+wp_group_map: (0)
+wp_hsa_plugin: (2)
+wp_links: (0)
+wp_map_locations: (1)
+wp_mappress_maps: (0)
+wp_mappress_posts: (0)
+wp_mpsl_sliders: (1)
+wp_mpsl_sliders_preview: (1)
+wp_mpsl_slides: (3)
+wp_mpsl_slides_preview: (1)
+wp_options: (402)
+wp_postmeta: (7950)
+wp_posts: (1324)
+wp_relevanssi: (0)
+wp_relevanssi_log: (0)
+wp_relevanssi_stopwords: (168)
+wp_responsive_menu: (280)
+wp_term_relationships: (2373)
+wp_term_taxonomy: (438)
+wp_termmeta: (0)
+wp_terms: (423)
+wp_usermeta: (304)
+wp_users: (11)
+wp_verticalmarquee: (4)
+wp_wpgmza: (3)
+wp_wpgmza_categories: (0)
+wp_wpgmza_category_maps: (0)
+wp_wpgmza_circles: (0)
+wp_wpgmza_maps: (1)
+wp_wpgmza_nominatim_geocode_cache: (1)
+wp_wpgmza_polygon: (0)
+wp_wpgmza_polylines: (0)
+wp_wpgmza_rectangles: (0)
+wp_yoast_seo_links: (620)
+wp_yoast_seo_meta: (949)
+Removed '47' cache/transient rows
+
+INSERT DATA RUNTIME: 2.1945 sec.
+STEP-2 COMPLETE @ 01:44:18 - RUNTIME: 2.2200 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 01:44:25
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+categorias_post^ (0)
+cidade~ (5595)
+estado~ (28)
+post^ (0)
+sub_categorias_post^ (0)
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_create_map^ (0)
+wp_duplicator_packages^ (0)
+wp_gmp_icons~ (47)
+wp_gmp_maps^ (0)
+wp_gmp_marker_groups^ (0)
+wp_gmp_markers^ (0)
+wp_gmp_membership_presets^ (0)
+wp_gmp_modules~ (14)
+wp_gmp_modules_type~ (4)
+wp_gmp_options~ (2)
+wp_gmp_options_categories~ (4)
+wp_gmp_usage_stat^ (0)
+wp_group_map^ (0)
+wp_hsa_plugin~ (2)
+wp_links^ (0)
+wp_map_locations~ (1)
+wp_mappress_maps^ (0)
+wp_mappress_posts^ (0)
+wp_mpsl_sliders~ (1)
+wp_mpsl_sliders_preview~ (1)
+wp_mpsl_slides~ (3)
+wp_mpsl_slides_preview~ (1)
+wp_options~ (402)
+wp_postmeta~ (7950)
+wp_posts~ (1324)
+wp_relevanssi^ (0)
+wp_relevanssi_log^ (0)
+wp_relevanssi_stopwords~ (168)
+wp_responsive_menu~ (280)
+wp_term_relationships~ (2373)
+wp_term_taxonomy~ (438)
+wp_termmeta^ (0)
+wp_terms~ (423)
+wp_usermeta~ (304)
+wp_users~ (11)
+wp_verticalmarquee~ (4)
+wp_wpgmza~ (3)
+wp_wpgmza_categories^ (0)
+wp_wpgmza_category_maps^ (0)
+wp_wpgmza_circles^ (0)
+wp_wpgmza_maps~ (1)
+wp_wpgmza_nominatim_geocode_cache~ (1)
+wp_wpgmza_polygon^ (0)
+wp_wpgmza_polylines^ (0)
+wp_wpgmza_rectangles^ (0)
+wp_yoast_seo_links~ (620)
+wp_yoast_seo_meta~ (949)
+--------------------------------------
+Search1:	'/home/mundodospets/mundodospets.com' 
+Change1:	'C:/xampp/htdocs/mundodospets' 
+Search2:	'\/home\/mundodospets\/mundodospets.com' 
+Change2:	'C:\/xampp\/htdocs\/mundodospets' 
+Search3:	'%2Fhome%2Fmundodospets%2Fmundodospets.com%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Fmundodospets%2F' 
+Search4:	'\home\mundodospets\mundodospets.com' 
+Change4:	'C:/xampp/htdocs/mundodospets' 
+Search5:	'\\home\\mundodospets\\mundodospets.com' 
+Change5:	'C:\/xampp\/htdocs\/mundodospets' 
+Search6:	'%5Chome%5Cmundodospets%5Cmundodospets.com' 
+Change6:	'C%3A%2Fxampp%2Fhtdocs%2Fmundodospets' 
+Search7:	'//mundodospets.com' 
+Change7:	'//localhost/mundodospets' 
+Search8:	'\/\/mundodospets.com' 
+Change8:	'\/\/localhost\/mundodospets' 
+Search9:	'%2F%2Fmundodospets.com' 
+Change9:	'%2F%2Flocalhost%2Fmundodospets' 
+Search10:	'https://localhost' 
+Change10:	'http://localhost' 
+Search11:	'https:\/\/localhost' 
+Change11:	'http:\/\/localhost' 
+Search12:	'https%3A%2F%2Flocalhost' 
+Change12:	'http%3A%2F%2Flocalhost' 
+SCANNED:	Tables:54 	|	 Rows:20955 	|	 Cells:106403 
+UPDATED:	Tables:5 	|	 Rows:1479 	|	 Cells:1675 
+ERRORS:		0 
+RUNTIME:	1.217400 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'C:/xampp/htdocs/mundodospets/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 01:44:27 - RUNTIME: 1.3383 sec. 
+
+
